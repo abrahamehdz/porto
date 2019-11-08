@@ -23,6 +23,16 @@
     <link rel="stylesheet" href="assets/css/style.min.css">
     <link rel="stylesheet" href="../../../../www.portotheme.com/html/porto_ecommerce/demo_22/assets/vendor/simple-line-icons/css/simple-line-icons.min.html">
     <link rel="stylesheet" href="assets/vendor/fontawesome-free/css/all.min.css">
+
+    <script src="//assets.adobedtm.com/c4dc318fd160/4199143839d8/launch-b2a35f471ab3-development.min.js"></script>
+
+    <script>
+        var dlMetri = {
+            'pageName': 'Carrito de compras'
+        };
+        _satellite.track("porto");
+    </script>
+
 </head>
 <body>
     <div class="page-wrapper">
@@ -518,7 +528,7 @@
                             </table>
 
                             <div class="checkout-methods">
-                                <a href="checkout-shipping.html" class="btn btn-block btn-sm btn-primary">Go to Checkout</a>
+                                <a href="checkout-shipping.html" class="btn btn-block btn-sm btn-primary" data-titulo="Ir a la caja" data-evento="clicBoton">Go to Checkout</a>
                                 <a href="#" class="btn btn-link btn-block">Check Out with Multiple Addresses</a>
                             </div><!-- End .checkout-methods -->
                         </div><!-- End .cart-summary -->
@@ -762,6 +772,9 @@
 
     <!-- Main JS File -->   
     <script src="assets/js/main.min.js"></script>
+
+    <script type="text/javascript">_satellite.pageBottom();</script>
+
 </body>
 
 <!-- Mirrored from portotheme.com/html/porto_ecommerce/demo_22/cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Oct 2019 16:06:54 GMT -->

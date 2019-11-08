@@ -25,6 +25,16 @@
     <!-- Main CSS File -->
     <link rel="stylesheet" href="assets/css/style.min.css">
     <link rel="stylesheet" href="assets/vendor/fontawesome-free/css/all.min.css">
+
+    <script src="//assets.adobedtm.com/c4dc318fd160/4199143839d8/launch-b2a35f471ab3-development.min.js"></script>
+
+    <script>
+        var dlMetri = {
+            'pageName': 'Revision de pago'
+        };
+        _satellite.track("porto");
+    </script>
+
 </head>
 <body>
     <div class="page-wrapper">
@@ -519,7 +529,7 @@
                             </div><!-- End #new-checkout-address -->
 
                             <div class="clearfix">
-                                <a href="resumen.html" class="btn btn-primary float-right">Place Order</a>
+                                <a href="resumen.html" class="btn btn-primary float-right" data-titulo="Realizar pedido" data-evento="clicBoton">Place Order</a>
                             </div><!-- End .clearfix -->
                         </div><!-- End .checkout-payment -->
 
@@ -775,6 +785,8 @@
 
     <!-- Main JS File -->   
     <script src="assets/js/main.min.js"></script>
+
+    <script type="text/javascript">_satellite.pageBottom();</script>
 
 </body>
 

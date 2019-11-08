@@ -22,6 +22,16 @@
     <!-- Main CSS File -->
     <link rel="stylesheet" href="assets/css/style.min.css">
     <link rel="stylesheet" href="assets/vendor/fontawesome-free/css/all.min.css">
+
+    <script src="//assets.adobedtm.com/c4dc318fd160/4199143839d8/launch-b2a35f471ab3-development.min.js"></script>
+
+    <script>
+        var dlMetri = {
+            'pageName': 'Productos'
+        };
+        _satellite.track("porto");
+    </script>
+
 </head>
 <body>
     <div class="page-wrapper">
@@ -221,11 +231,11 @@
                                                 <a href="#">Variations</a>
                                             </div>
                                             <ul>
-                                                <li><a href="metriproducto_001.html">Horizontal Thumbnails</a></li>
-                                                <li><a href="product-full-width.html">Vertical Thumbnails<span class="tip tip-hot">Hot!</span></a></li>
-                                                <li><a href="metriproducto_001.html">Inner Zoom</a></li>
-                                                <li><a href="product-addcart-sticky.html">Addtocart Sticky</a></li>
-                                                <li><a href="product-sidebar-left.html">Accordion Tabs</a></li>
+                                                <li><a href="metriproducto_001.html" data-titulo="Producto1" data-evento="clicProducto">Horizontal Thumbnails</a></li>
+                                                <li><a href="product-full-width.html" data-titulo="Producto2" data-evento="clicProducto">Vertical Thumbnails<span class="tip tip-hot">Hot!</span></a></li>
+                                                <li><a href="metriproducto_001.html" data-titulo="Producto3" data-evento="clicProducto">Inner Zoom</a></li>
+                                                <li><a href="product-addcart-sticky.html" data-titulo="Producto4" data-evento="clicProducto">Addtocart Sticky</a></li>
+                                                <li><a href="product-sidebar-left.html" data-titulo="Producto5" data-evento="clicProducto">Accordion Tabs</a></li>
                                             </ul>
                                         </div><!-- End .col-lg-4 -->
                                         <div class="col-lg-4">
@@ -233,12 +243,12 @@
                                                 <a href="#">Product Layout Types</a>
                                             </div>
                                             <ul>
-                                                <li><a href="metriproducto_001.html">Default Layout</a></li>
-                                                <li><a href="product-extended-layout.html">Extended Layout</a></li>
-                                                <li><a href="product-full-width.html">Full Width Layout</a></li>
-                                                <li><a href="product-grid-layout.html">Grid Images Layout</a></li>
-                                                <li><a href="product-sticky-both.html">Sticky Both Side Info<span class="tip tip-hot">Hot!</span></a></li>
-                                                <li><a href="product-sticky-info.html">Sticky Right Side Info</a></li>
+                                                <li><a href="metriproducto_001.html" data-titulo="Producto6" data-evento="clicProducto">Default Layout</a></li>
+                                                <li><a href="product-extended-layout.html" data-titulo="Producto7" data-evento="clicProducto">Extended Layout</a></li>
+                                                <li><a href="product-full-width.html" data-titulo="Producto8" data-evento="clicProducto">Full Width Layout</a></li>
+                                                <li><a href="product-grid-layout.html" data-titulo="Producto9" data-evento="clicProducto">Grid Images Layout</a></li>
+                                                <li><a href="product-sticky-both.html" data-titulo="Producto10" data-evento="clicProducto">Sticky Both Side Info<span class="tip tip-hot">Hot!</span></a></li>
+                                                <li><a href="product-sticky-info.html" data-titulo="Producto11" data-evento="clicProducto">Sticky Right Side Info</a></li>
                                             </ul>
                                         </div><!-- End .col-lg-4 -->
 
@@ -423,7 +433,7 @@
                                                 <input class="horizontal-quantity form-control" type="text">
                                             </div><!-- End .product-single-qty -->
 
-                                            <a href="cart.html" class="paction add-cart" title="Add to Cart">
+                                            <a href="cart.html" class="paction add-cart" title="Add to Cart" data-titulo="Add to Card" data-evento="clicBoton">
                                                 <span>Add to Cart</span>
                                             </a>
                                             <a href="#" class="paction add-wishlist" title="Add to Wishlist">
@@ -1201,6 +1211,9 @@
 
     <!-- Main JS File -->   
     <script src="assets/js/main.min.js"></script>
+
+    <script type="text/javascript">_satellite.pageBottom();</script>
+
 </body>
 
 <!-- Mirrored from portotheme.com/html/porto_ecommerce/demo_22/metriproducto_001.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Oct 2019 16:07:31 GMT -->
